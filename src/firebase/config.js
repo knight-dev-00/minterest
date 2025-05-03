@@ -9,12 +9,12 @@ import * as firestore from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCWg5NrIj6_3rJOPIXqIGfkVCs0bM_yMsk",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "minterest-3e6c0.firebaseapp.com",
   projectId: "minterest-3e6c0",
   storageBucket: "minterest-3e6c0.appspot.com",
-  messagingSenderId: "668960728410",
-  appId: "1:668960728410:web:a86b374347c102df587f63"
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID
 };
 
 // Initialize Firebase

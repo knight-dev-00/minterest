@@ -1,19 +1,23 @@
 {
   "name": "minterest",
   "version": "0.1.0",
+  "homepage": "https://knight-dev-00.github.io/minterest",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "firebase": "^9.2.0",
+    "dotenv": "^16.5.0",
+    "firebase": "^11.6.1",
     "framer-motion": "^4.1.17",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

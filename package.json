@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "dotenv": "^16.5.0",
     "firebase": "^11.6.1",
+    "firebase-admin": "^13.3.0",
     "framer-motion": "^4.1.17",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

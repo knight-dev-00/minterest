@@ -4,7 +4,7 @@ const Title = () => {
   return (
     <div className="title">
       <div className="header">
-        <img src="/logo.jpg" alt="logo" />
+        <img src="images/logo.jpg" alt="logo" />
         <h1>Minterest</h1>
       </div>
       <h2>Your Pictures</h2>
